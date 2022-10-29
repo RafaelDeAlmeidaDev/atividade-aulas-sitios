@@ -1,0 +1,93 @@
+/*secao tags*/
+
+body{
+    margin: 0;
+    background-color: #0a5483;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(51, 51, 207);
+    background-color: black;
+    margin: 0;
+    border: 6px red dashed;
+    padding: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+nav{
+    background-color: #012946; 
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    color: black;
+    font-size: 18px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #aedd2b;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+hr{
+    border: 0;
+    width: 10%;
+    border-top: #fff dotted 16px; 
+    margin: 100px auto;
+}
+
+
+div{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+header{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+
+/*=====classes====*/
+
+/*=====ids====*/
+
+#cerebro-tech1{
+    position: absolute;
+    left: 1%;
+    top: 0;
+}
+
+#cerebro-tech2{
+    position: absolute;
+    right: 1%;
+    bottom: 0;
+}
+
+#eu{
+    border-radius: 50;
+}
