@@ -8,7 +8,7 @@ body{
 
 h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(51, 51, 207);
     background-color: black;
     margin: 0;
@@ -16,34 +16,40 @@ h1{
     padding: 20px;
 }
 
-h2{
-    font-size: 25px;
+h2, h3{
+    font-size: 30px;
 }
 
 nav{
     background-color: #012946; 
-    text-align: center;
     padding: 20px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 li{
     list-style: none;
     display: inline-block;
+    margin: 5px;
 }
 
 a{
     color: black;
     font-size: 18px;
-    margin: 20px;
     text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #000;
 }
 
 a:hover{
     color: #aedd2b;
-    font-size: 20px;
     text-decoration: underline;
+    border: solid 2px #aedd2b;
 }
+
 
 hr{
     border: 0;
@@ -62,6 +68,7 @@ div{
 
 p{
     text-align: justify;
+    line-height: 2;
     
 }
 
@@ -70,6 +77,46 @@ header{
     margin-bottom: 100px;
 }
 
+footer{
+    width: 100%;
+}
+
+footer > p{
+    color: #fff;
+    text-align: center;
+    background-color: #012946;
+    margin: 0;
+    padding: 20px;
+
+
+}
+
+fieldset{
+    margin: 10px auto;
+    width: 60%;
+    border: solid 10px black;
+    background-color: #012946;
+    color: #aedd2b;
+    height: 400px;
+}
+
+input{
+    margin: 10px;
+    display: inline;
+    width: 40%;
+    border: solid 3px #000;
+}
+
+input[type=text]{
+    height: 150px
+}
+
+button{
+   margin: 0 auto;
+   display: block;
+   width: 250px;
+   height: 30px;
+}
 
 
 /*=====classes====*/
