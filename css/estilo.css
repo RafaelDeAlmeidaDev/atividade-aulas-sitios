@@ -1,15 +1,18 @@
 /*secao tags*/
-
-body{
+*{
     margin: 0;
+    padding: 0;
+}
+body{
     background-color: #0a5483;
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 20px;
 }
 
 
 
-h2, h3{
+h1, h2, h3{
     font-size: 30px;
 }
 
@@ -28,22 +31,6 @@ li{
     margin: 5px;
 }
 
-a{
-    color: black;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 5px 10px;
-    color: white;
-    background-color: #000;
-}
-
-a:hover{
-    color: #aedd2b;
-    text-decoration: underline;
-    border: solid 2px #aedd2b;
-}
-
-
 hr{
     border: 0;
     width: 10%;
@@ -52,26 +39,29 @@ hr{
 }
 
 
-div{
+article{
     margin: 0 auto;
-    width: 60%;
+    width: 60vw;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
-p{
+article > p{
     text-align: justify;
-    line-height: 2;
+    margin: 30px auto;
+    width: 80%;
+    letter-spacing: -1px;
+
     
 }
 
 header{
-    width: 100%;
     margin-bottom: 100px;
 }
 
 footer{
-    width: 100%;
+    margin-top: 150px;
+
 }
 
 footer > p{
@@ -132,10 +122,10 @@ section > p{
 .titulo-padrao-index{
     text-align: center;
     font-size: 40px;
-    color: rgb(51, 51, 207);
+    color: #3333cf;
     background-color: black;
     margin: 0;
-    border: 6px red dashed;
+    border: 6px #aedd2b dashed;
     padding: 20px;
 }
 
@@ -162,4 +152,27 @@ section > p{
     font-size: 40px;
     color: white;
     margin:  0;
+}
+
+.home{
+    width: 120px;
+}
+
+.links-menu{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #000;
+}
+
+.links-menu:hover{
+    color: #aedd2b;
+    text-decoration: underline;
+    border: solid 2px #aedd2b;
+}
+
+.my-links{
+    width: 329px;
 }
