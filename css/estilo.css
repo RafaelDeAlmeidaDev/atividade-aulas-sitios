@@ -174,5 +174,6 @@ section > p{
 }
 
 .my-links{
-    width: 329px;
+    max-width: 329px;
+    width: 80%;
 }
